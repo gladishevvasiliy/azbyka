@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "name": "Параклит",
+      "id": 0,
+      "symbols": [
+        { "id": 0,
+          "value": "<span class='red'>í</span>o",
+          "pitch": "Ре",
+          "name": "Параклит Ре",
+          "sounds": 1,
+          "opts": [],
+          "meaning": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+          "transcript": "",
+          "notes": "f5/8"
+        },
+        {
+          "id": 1,
+          "value": "<span class='red'>ã</span>p4",
+          "pitch": "Ут",
+          "name": "Параклит Ут",
+          "sounds": 2,
+          "opts": ["Подчашие"],
+          "meaning": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+          "transcript": "",
+          "notes": "f5/8"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    },
+    {
+      "name": "Крюк",
+      "id": 1,
+      "symbols": [
+        {
+          "id": 3,
+          "value": "<span class='red'>ö</span>l{)",
+          "pitch": "Ми",
+          "name": "Крюк Ми",
+          "sounds": 1,
+          "opts": ["Отсечка"],
+          "meaning": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+          "transcript": "",
+          "notes": "f5/8"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    }
+  ]
+}
