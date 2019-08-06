@@ -5,28 +5,35 @@
       "id": 0,
       "symbols": [
         { "id": 0,
-          "value": "<span class='red'>í</span>o",
-          "pitch": "Ре",
-          "name": "Параклит Ре",
+          "value": "<span class='red'>ì</span>p",
+          "pitch": "Фа",
+          "name": "Параклит Фа",
           "sounds": 1,
           "opts": [],
-          "meaning": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-          "transcript": "",
-          "notes": "f5/8"
+          "meaning": "1 звук в 1/2.",
+          "transcript": [],
+          "notes": "f4/h",
+          "time": "2/4"
         },
         {
-          "id": 1,
-          "value": "<span class='red'>ã</span>p4",
-          "pitch": "Ут",
-          "name": "Параклит Ут",
+          "id": 2,
+          "value": "<span class='red'>ì</span>p4",
+          "pitch": "Фа",
+          "name": "Параклит Фа",
           "sounds": 2,
           "opts": ["Подчашие"],
-          "meaning": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-          "transcript": "",
-          "notes": "f5/8"
+          "meaning": "АК: 2 звука в 1/2.",
+          "transcript": ["<span class='red'>ì</span>k(", "<span class='red'>ö</span>l{"],
+          "notes": "f4/h, e4/h",
+          "time": "4/4"
         }
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      "description": [
+        {
+          "source": "Азб. Калашн.",
+          "info": "Параклит пишется при начале песнопений, и реже встречается в середине оных."
+        }
+      ]
     },
     {
       "name": "Крюк",
@@ -39,12 +46,18 @@
           "name": "Крюк Ми",
           "sounds": 1,
           "opts": ["Отсечка"],
-          "meaning": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-          "transcript": "",
-          "notes": "f5/8"
+          "meaning": "1 звук в 1/4",
+          "transcript": [],
+          "notes": "E4/q",
+          "time": "1/4"
         }
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      "description": [
+        {
+          "source": "Азб. Калашн.",
+          "info": "Крюки пишется на силах, то есть над слогами на которых должно быть ударение; Звук при этом знамени должно усиливать."
+        }
+      ]
     }
   ]
 }

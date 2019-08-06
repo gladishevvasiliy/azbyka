@@ -1,12 +1,21 @@
 import React from 'react'
 import { isEmpty } from 'lodash'
-import { Table, Header } from 'semantic-ui-react'
+import { Table, Header, Message } from 'semantic-ui-react'
 import Item from '../Item'
+import './style.css'
 const Category = ({ category }) => {
   if (isEmpty(category.symbols)) return null
   return (
     <>
       <Header as="h2">{category.name}</Header>
+      <Message>
+        {category.description.map(description => (
+          <>
+            <span className="sourceDescription">{description.source}: </span>
+            <span>{description.info}</span>
+          </>
+        ))}
+      </Message>
       <Table key={category.id} celled>
         <Table.Header>
           <Table.Row>

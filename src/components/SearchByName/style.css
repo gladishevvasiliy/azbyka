@@ -1,0 +1,7 @@
+.searchForm {
+  border: none;
+  border-bottom: 2px solid #e0e1e2;
+  color: rgba(0,0,0,.6);
+  font-family: 'Lato','Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-size: 30pt;
+}

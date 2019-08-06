@@ -1,0 +1,22 @@
+.searchByViewForm {
+  font-family: Kruk;
+  border: none;
+  border-bottom: 2px solid #e0e1e2;
+  color: rgba(0,0,0,.6);
+}
+.symbolButton {
+  font-family: Kruk !important;
+  font-size: 30pt !important;
+  padding: 10px !important;
+  box-shadow: 0 0 0!important;
+  -webkit-box-shadow: 0 0 0 !important;
+  border-radius: 0  !important;
+}
+.symbolButton:hover {
+  -webkit-box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset !important;
+  box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset !important;
+  border-radius: .28571429rem !important;
+}
+.symbolsButtons {
+  display: flex;
+}

@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+@font-face {
+  src: url(./res/fonts/Kruk-Kalashn-edit-VG.ttf);
+  font-family: Kruk;
+}
+
+.red {
+  color: red;
+}
