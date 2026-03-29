@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "eslint-plugin-react": "^7.14.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
